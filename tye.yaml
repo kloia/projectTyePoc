@@ -1,0 +1,17 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: projecttye
+registry: umitokcu
+services:
+- name: webapp
+  project: WebApp/WebApp.csproj
+  bindings:
+    - port: 5000
+- name: product
+  project: ProductServiceApi/ProductServiceApi.csproj
+  bindings:
+    - port: 5050
