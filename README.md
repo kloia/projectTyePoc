@@ -13,4 +13,4 @@
 
 ### Port forward 
 
-```kubectl port-forward svc/webapp 5001:8000```
+```kubectl port-forward svc/webapp 5001:5000```
